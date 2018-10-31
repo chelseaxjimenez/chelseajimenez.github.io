@@ -4,29 +4,61 @@
 <head>
   <meta charset="utf-8">
   <title>Chelsea Jimenez's Portal</title>
+  <style>
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: .2fr 1.6fr .2fr;
+    max-width: 80vw;
+    margin: auto;
+  }
+
+  header {
+    align-content: center;
+    text-align: center;
+  }
+
+  div.box {
+    text-align: center;
+  }
+
+  .projects {
+    background-color: #f9dbf9;
+  }
+
+  .exercises {
+    background-color: #bbebf9;
+  }
+
+  .links {
+    background-color: #f5f9bb;
+  }
+
+
+  </style>
 </head>
 
-<body>
+<header>
+  <h1>
+  <div class="box"><img src="https://t3.ftcdn.net/jpg/02/19/80/80/240_F_219808017_mG3W5hoH9W0OQx6N37yLCoNxNsgCuy6W.jpg" alt="header"></div>
+  Chelsea Jimenez
+</h1>
+Undergraduate Design and Cinema & Digital Major, French Fry Enthusiast
+</header>
   <div id="container">
-    <header>
-      <h1>
-      <center><img src="https://t3.ftcdn.net/jpg/02/19/80/80/240_F_219808017_mG3W5hoH9W0OQx6N37yLCoNxNsgCuy6W.jpg" alt="header"></center>
-      <center>Chelsea Jimenez</center>
-    </h1>
-    <center>Undergraduate Design and Cinema & Digital Major, French Fry Enthusiast</center>
-    </header>
+    	<div class="container">
 
-    <section>
-      <h2>Projects</h2>
+    <section class="projects">
+      <div class="box"><h2>Projects</h2></div>
       <ol>
         <li><a href="index.html">Portal Page</a></li>
-        <li><a href="#">Blog Design</a></li>
+        <li><a href="https://chelseaxjimenez.github.io/blogproject/">Blog Design</a></li>
         <li><a href="#">TBD</a></li>
       </ol>
     </section>
 
-    <section>
-      <h2>Exercises</h2>
+    <section class="exercises">
+      <div class="box"><h2>Exercises</h2></div>
       <ol>
         <li><a href="exercise1.html">History of Internet Art: Remixing</a></li>
         <li>HTML Semantic Markup Practice</li>
@@ -44,8 +76,8 @@
       </ol>
     </section>
 
-    <aside>
-      <h2>Useful Links</h2>
+    <section class="links">
+      <div class="box"><h2>Useful Links</h2></div>
       <ul>
         <li><h3> Design Youtubers </h3>
           <ul>
@@ -63,10 +95,10 @@
           </ul>
         </li>
       </ul>
-    </aside>
+    </section>
 
-  </div>
-</body>
+  </div></div>
+</body></html>
 
 <footer>
   <p>© Chelsea Jimenez | 2018</p>
